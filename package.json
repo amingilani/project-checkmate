@@ -1,0 +1,24 @@
+{
+  "name": "project-checkmate",
+  "version": "1.0.0",
+  "description": "A trustless escrow for the blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amingilani/project-checkmate.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "escrow",
+    "multisig"
+  ],
+  "author": "Amin Shah Gilani <amin@gilani.me>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/amingilani/project-checkmate/issues"
+  },
+  "homepage": "https://github.com/amingilani/project-checkmate#readme"
+}
