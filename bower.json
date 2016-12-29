@@ -1,0 +1,19 @@
+{
+  "name": "project-checkmate",
+  "homepage": "https://github.com/amingilani/project-checkmate",
+  "description": "A trustless escrow system",
+  "main": "views/index.html",
+  "authors": [
+    "Amin Shah Gilani <amin@gilani.me>",
+    "Mannan Tirmizi <mannantirmizi@gmail.com\""
+  ],
+  "license": "GPL-3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
