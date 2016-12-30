@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/amingilani/project-checkmate#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "livereload": "^0.6.0"
   },
   "dependencies": {
