@@ -11,84 +11,9 @@
 
 <body>
 
-    <div class="ui text container">
-    <h1>Product Details</h1>
-    <h4>Nexus 4</h4>
-    <div class="ui input focus">
+  <div class="ui text container">
 
-    </div>
-
-    <div class="ui items">
-  <div class="item">
-    <div class="image">
-      <img src="/images/wireframe/image.png">
-    </div>
-    <div class="content">
-      <a class="header">Header</a>
-      <div class="meta">
-        <span>Description</span>
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        Additional Details
-      </div>
-    </div>
-  </div>
-
-
-  <div class="ui right labeled input">
-  <input type="text" placeholder="Enter Quantity..">
-  <div class="ui basic label">
-  units
-  </div>
-</div>
-<div class="ui input focus">
-  <h4>Choose Color</h4>
-
-</div>
-<a class="ui red empty circular label"></a>
-<a class="ui orange empty circular label"></a>
-<a class="ui yellow empty circular label"></a>
-<a class="ui olive empty circular label"></a>
-<a class="ui green empty circular label"></a>
-<a class="ui teal empty circular label"></a>
-<a class="ui blue empty circular label"></a>
-<a class="ui violet empty circular label"></a>
-<a class="ui purple empty circular label"></a>
-<a class="ui pink empty circular label"></a>
-<a class="ui brown empty circular label"></a>
-<a class="ui grey empty circular label"></a>
-<a class="ui black empty circular label"></a>
-</div>
-</a>
-
-<h4> Enter Discount Voucher (optional) <h4>
-  <div class="ui input focus">
-    <input type="text" placeholder="######">
-  </div>
-
-
-  <h3> Contact Seller <h3>
-    <div class="ui yellow message">
-  <i class="star icon"></i>
-  To contact the seller directly please choose one of our representatives below
-</div>
-<div class="ui items">
-  <div class="item">
-    <a class="ui tiny image">
-      <img src="/images/avatar/large/stevie.jpg">
-    </a>
-    <div class="content">
-      <a class="header">Stevie Feliciano</a>
-      <div class="description">
-        <p> Stevie is a sales representative at emirati pharma</p>
-      </div>
-    </div>
-  </div>
-
-<h3> Buyer Details <h3>
+<h3> Seller Details <h3>
   <form class="ui form">
   <div class="field">
     <label>First Name</label>
@@ -115,15 +40,15 @@
 
 
 <form class="ui form">
-  <h4 class="ui dividing header">Shipping Information</h4>
+  <h4 class="ui dividing header">Business Address</h4>
   <div class="field">
     <label>Name</label>
     <div class="two fields">
       <div class="field">
-        <input type="text" name="shipping[first-name]" placeholder="First Name">
+        <input type="text" name="Business[first-name]" placeholder="First Name">
       </div>
       <div class="field">
-        <input type="text" name="shipping[last-name]" placeholder="Last Name">
+        <input type="text" name="Business[last-name]" placeholder="Last Name">
       </div>
     </div>
   </div>
@@ -451,54 +376,7 @@
   </div>
 
 
-        <div class="field">
-          <input type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
-        </div>
 
-
-   <h4 class="ui dividing header">Receipt</h4>
-   <div class="field">
-    <label>Send Receipt To:</label>
-    <div class="ui fluid multiple search selection dropdown">
-      <input type="hidden" name="receipt">
-      <i class="dropdown icon"></i>
-      <div class="default text">Saved Contacts</div>
-      <div class="menu">
-        <div class="item" data-value="jenny" data-text="Jenny">
-          <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg">
-          Jenny Hess
-        </div>
-        <div class="item" data-value="elliot" data-text="Elliot">
-          <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg">
-          Elliot Fu
-        </div>
-        <div class="item" data-value="stevie" data-text="Stevie">
-          <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg">
-          Stevie Feliciano
-        </div>
-        <div class="item" data-value="christian" data-text="Christian">
-          <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg">
-          Christian
-        </div>
-        <div class="item" data-value="matt" data-text="Matt">
-          <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg">
-          Matt
-        </div>
-        <div class="item" data-value="justen" data-text="Justen">
-          <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg">
-          Justen Kitsune
-        </div>
-      </div>
-    </div>
-  </div>
-   <div class="ui segment">
-    <div class="field">
-      <div class="ui toggle checkbox">
-        <input type="checkbox" name="gift" tabindex="0" class="hidden">
-        <label>Do not include a receipt in the package</label>
-      </div>
-    </div>
-  </div>
 
 </form>
 
@@ -517,31 +395,24 @@
   <i class="privacy icon"></i>
 </div>
 
-<div> <p> Input your bitcoin wallet address</p>
-  <div class="ui input">
- <input type="text" placeholder="link to bitcoin address...">
-</div>
-</div>
 
 <div> <p> Input email id for sending key</p>
   <div class="ui input">
  <input type="text" placeholder="e.g vendor@shop.com ">
 </div>
 </div>
-
 <div>
   <button class="ui button" type="submit">Submit</button>
 </div>
 
 
+
+
+
+
+
+
 </div>
-
-
-
-
-
-
-
 
 
 
